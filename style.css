@@ -30,3 +30,16 @@ ul {
 a {
     text-decoration: none;
 }
+
+.content {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    max-width: 128px;
+}
