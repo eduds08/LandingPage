@@ -3,39 +3,28 @@ body {
     padding: 0;
 }
 
-.header {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-}
-
 .top {
     display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
 }
 
-.header-content {
+.header {
     display: flex;
+    justify-content: space-between;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.hero-secondary-text, a {
-    font-size: 18px;
-    color: #E5E7EB;
+.top-content {
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
     list-style: none;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 a {
