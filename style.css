@@ -43,3 +43,13 @@ a {
 .image {
     max-width: 128px;
 }
+
+.quote-section {
+    text-align: center;
+}
+
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+}
