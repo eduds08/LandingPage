@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     max-width: 800px;
     margin: auto;
+    background-color: #1F2937;
 }
 
 .header {
@@ -46,10 +47,17 @@ a {
 
 .quote-section {
     text-align: center;
+    background-color: #E5E7EB;
 }
 
 
 .call-to-action-section {
     display: flex;
     justify-content: center;
+    background-color: #3882F6;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
 }
