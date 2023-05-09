@@ -1,7 +1,13 @@
+* {
+    font-family: Roboto;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
+
+/*-----CONTAINER 1-----*/
 
 .container1 {
     display: flex;
@@ -10,18 +16,44 @@ body {
 }
 
 .hero {
-    max-width: 1000px;
     margin: auto;
+    width: 70vw;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 16px;
 }
 
 .hero-content {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.hero-main-text {
+    flex: 0.83;
+}
+
+.hero-main-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header span {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main-text p,
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
 }
 
 .header ul {
@@ -29,11 +61,26 @@ body {
     display: flex;
     padding: 0;
     margin: 0;
+    gap: 16px;
 }
 
 .header a {
     text-decoration: none;
 }
+
+.hero-main-text button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 35px;
+    margin-top: 10px;
+}
+
+
+/*-----CONTAINER 2------*/
 
 .container2 {
     text-align: center;
