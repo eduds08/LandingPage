@@ -47,6 +47,7 @@ body {
 .header span {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 .hero-main-text p,
@@ -83,17 +84,40 @@ body {
 /*-----CONTAINER 2------*/
 
 .container2 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .container2-images {
     display: flex;
     justify-content: center;
+    gap: 32px;
+}
+
+.container2 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .container2-images .image {
-    max-width: 128px;
+    flex-basis: 150px;
+    text-align: center;
 }
+
+.image p {
+    margin: 0;
+
+}
+
+.image img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/*-----CONTAINER 3------*/
 
 .container3 {
     text-align: center;
