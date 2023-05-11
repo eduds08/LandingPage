@@ -76,7 +76,8 @@ body {
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
-    padding: 8px 35px;
+    padding: 5px 35px;
+    height: min-content;
     margin-top: 10px;
 }
 
@@ -154,7 +155,39 @@ body {
 .container4 {
     display: flex;
     justify-content: center;
+}
+
+.blue-section {
     background-color: #3882F6;
+    display: flex;
+    padding: 50px 150px;
+    border-radius: 10px;
+    margin: 100px 0;
+    gap: 100px;
+}
+
+.blue-section button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 35px;
+    height: min-content;
+    align-self: center;
+}
+
+.call-to-action-text span {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.call-to-action-text p {
+    margin: 0;
+    color: white;
+    font-weight: 0;
 }
 
 /*-----FOOTER------*/
