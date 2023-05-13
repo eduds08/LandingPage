@@ -1,5 +1,7 @@
 # LandingPage
 
+Landing Page project of The Odin Project.
+
 Credits:
 
 Pixabay - https://www.pexels.com/pt-br/foto/fatias-de-banana-na-placa-de-ceramica-redonda-branca-sobre-a-mesa-34292/
